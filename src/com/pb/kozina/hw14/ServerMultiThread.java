@@ -39,7 +39,7 @@ public class ServerMultiThread {
                 out.write("Ответ от сервера, текущая дата: "+ LocalDateTime.now() + payload);
                 out.write("</h1></body></html>");
 
-                System.out.println(Thread.currentThread().getName() +"Закрываем соединение с клиентом");
+                System.out.println(Thread.currentThread().getName() +" Закрываем соединение с клиентом");
                 out.close();
                 in.close();
             } catch (Exception ex) {

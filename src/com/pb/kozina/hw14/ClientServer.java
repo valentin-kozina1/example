@@ -34,7 +34,7 @@ public class ClientServer {
 
         // Отправляем тестовую строку в сокет
         out.println(message);
-        System.out.println("Запрос отправлен на сервер");
+        System.out.println("Запрос отправлен на сервер ");
 
         String str;
         // Входим в цикл чтения, что нам ответил сервер
