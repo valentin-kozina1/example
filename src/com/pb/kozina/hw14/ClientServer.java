@@ -18,7 +18,7 @@ public class ClientServer {
         Socket socket = new Socket("localhost", port);
 
         // Пишем, что стартовал клиент
-        System.out.println("Клиент подключился ");
+        System.out.println("Клиент подключился");
         System.out.println("Сервер ждет запроса");
         Scanner scan = new Scanner(System.in);
         String message = scan.nextLine();
