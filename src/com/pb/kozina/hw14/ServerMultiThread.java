@@ -36,7 +36,7 @@ public class ServerMultiThread {
                 out.write("Content-Type: text/html; charset=utf-8\r\n");
                 out.write("\r\n");
                 out.write("<html><body><h1>");
-                out.write("Ответ от сервера, текущая дата: "+ LocalDateTime.now().toString() + payload);
+                out.write("Ответ от сервера, текущая дата: "+ LocalDateTime.now() + payload);
                 out.write("</h1></body></html>");
 
                 System.out.println(Thread.currentThread().getName() +"Закрываем соединение с клиентом");
